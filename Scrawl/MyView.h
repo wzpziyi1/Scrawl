@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface MyView : UIView
-
+- (void)clear;
+- (void)back;
 @end

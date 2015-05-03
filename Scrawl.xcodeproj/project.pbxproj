@@ -15,6 +15,7 @@
 		0961D86A1AF5C65D0015687A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0961D8691AF5C65D0015687A /* Images.xcassets */; };
 		0961D86D1AF5C65D0015687A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0961D86B1AF5C65D0015687A /* LaunchScreen.xib */; };
 		0961D8791AF5C65D0015687A /* ScrawlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0961D8781AF5C65D0015687A /* ScrawlTests.m */; };
+		0961D8841AF5C67A0015687A /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0961D8831AF5C67A0015687A /* MyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		0961D8721AF5C65D0015687A /* ScrawlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrawlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0961D8771AF5C65D0015687A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0961D8781AF5C65D0015687A /* ScrawlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrawlTests.m; sourceTree = "<group>"; };
+		0961D8821AF5C67A0015687A /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		0961D8831AF5C67A0015687A /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				0961D86B1AF5C65D0015687A /* LaunchScreen.xib */,
 				0961D8601AF5C65D0015687A /* Scrawl.xcdatamodeld */,
 				0961D8591AF5C65D0015687A /* Supporting Files */,
+				0961D8821AF5C67A0015687A /* MyView.h */,
+				0961D8831AF5C67A0015687A /* MyView.m */,
 			);
 			path = Scrawl;
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 				0961D8621AF5C65D0015687A /* Scrawl.xcdatamodeld in Sources */,
 				0961D8651AF5C65D0015687A /* ViewController.m in Sources */,
 				0961D85C1AF5C65D0015687A /* main.m in Sources */,
+				0961D8841AF5C67A0015687A /* MyView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
